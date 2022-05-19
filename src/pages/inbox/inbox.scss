@@ -1,0 +1,12 @@
+.inboxContainer{
+    // width: calc(100vw - 205px);
+    flex: 4;
+    
+    .inboxWrapper{
+        min-height: calc(100vh - 65px);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+    }
+}
