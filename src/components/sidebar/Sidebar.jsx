@@ -94,7 +94,7 @@ const Sidebar = () => {
                     <span className="extraText">Hangouts</span>
                     <div className="bottomExtraRow">
                         <AccountCircleIcon className="bottomExtraIcon2" />
-                        <span className="bottomExtraText">Codemancers</span>
+                        <span className="bottomExtraText">Shahreyar</span>
                         <ArrowDropDownIcon className="bottomSmall" />
                     </div>
                 </div>

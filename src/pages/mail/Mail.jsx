@@ -15,7 +15,7 @@ import ForwardIcon from '@mui/icons-material/Forward';
 
 const Mail = () => {
     const location = useLocation();
-    const val = location.pathname.split("/")[2];
+    const val = location.pathname.split("/")[3];
     const items = useSelector((state)=>state.items);
     const [mail, setMail] = useState([]);
 
@@ -24,7 +24,7 @@ const Mail = () => {
             item.id === items[val-1].id 
         )
         setMail(filteredItem[0]);
-    },[location])
+    },[location,items,val])
 
     return (
         <div className="mailContainer">

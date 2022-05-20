@@ -7,6 +7,8 @@ import TuneIcon from '@mui/icons-material/Tune';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import AppsOutlinedIcon from '@mui/icons-material/AppsOutlined';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+
 
 
 const Header = ({setSearchText}) => {

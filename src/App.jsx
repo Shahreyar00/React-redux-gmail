@@ -30,8 +30,8 @@ const App = () => {
                     <Route path="/mail/draft" element={<Draft searchText={searchText} />} />
                     <Route path="/mail/spam" element={<Spam searchText={searchText} />} />
                     <Route path="/mail/trash" element={<Trash searchText={searchText} />} />
-                    <Route path="/mail/:id" element={<Mail />} />
-                    <Route path="*" element={<Navigate to="/mail/inbox" />} />
+                    <Route path="/mail/:currentVal/:id" element={<Mail />} />
+                    <Route path="*" element={<Navigate to="/" />} />
                 </Routes>
                 <Rightbar />
             </div>
